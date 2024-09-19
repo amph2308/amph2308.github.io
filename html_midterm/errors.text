@@ -1,0 +1,22 @@
+ERRORS 1 
+
+
+
+ERRORS 2
+Missing in head:
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+Line 4: <h1> body text in the <head> section
+No defined language via DOCTYPE setup
+Line 6: <html> unnecessary
+Something with the div (i don’t understand div well)
+Line 8: <p> tag is not closed at the end of the line with </p>
+Line 8: <strong> tag is not closed 
+Line 10: <img href=”...”> should be <img src=”...”>
+Line 10: “image 2.jpg” is noted incorrectly, it should be “image_2.jpg
+Line 10: There should also be an “alt=....” included with the img src
+Line 12 “This is a heading </h2>” does not have an opening <h2> tag
+Line 14 “Text </p>” does not have an opening <p> tag 
+Line 15 <this is a comment> is not set up as a comment, should read <!-- this is a comment-->
+Line 16 </htm> must read </html>
+    
