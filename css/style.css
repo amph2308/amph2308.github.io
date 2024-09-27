@@ -7,7 +7,7 @@ body {
   html {
     font-family:'Courier New', Courier, monospace;
     font-size: 12px;
-    background-color: #ccc;
+    background-image: url(../img/eek.jpg);
   }
     
   /*Card Container*/
