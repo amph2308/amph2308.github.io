@@ -11,7 +11,7 @@ body {
   }
     
   /*Card Container*/
-  .card{
+  .card2{
     width: 35em;
     height: 22em;
     margin: 5em auto;
@@ -20,33 +20,33 @@ body {
     border-radius: 1.5em;
   }
 
-   .card h2, .card p{
+   .card2 h2, .card2 p{
     margin: 0;
 } 
 
   /*Section Styles*/
 
-.card header{
+.card2 header{
   height: 3em;
   padding: 1em;
   background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
   border-radius: 1.5em 1.5em 0 0;
 }
 
-.card header h2{
+.card2 header h2{
         font-size: 2em;
         color: #3f0;
         line-height: 1.5;
 }
     
-.card footer{
+.card2 footer{
     height: 3em;
     padding: 1em;
     background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
     border-radius: 0 0 1.5em 1.5em;
 }
 
-.card footer p{
+.card2 footer p{
     font-size: 1.5em;
     text-align: center;
     color:#3f0;
@@ -55,17 +55,17 @@ body {
 
   /*Card Elements*/ 
   
-.card article img{
+.card2 article img{
     max-height: 100%;
     float: right;
 }
 
-.card article {
+.card2 article {
     height: 12em;
     background-color: rgba(0,0,0,0.25);
 }
 
-.card article p {
+.card2 article p {
     padding: 1em;
     color: rgba(255,255,255,0.8);
 }
