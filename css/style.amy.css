@@ -5,9 +5,9 @@ body {
   }
   
   html {
-    font-family: 'Helvetica neue', Arial, 'sans serif';
-    font-size: 10px;
-    background-color: #ccc;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-image: url(../img/eek.jpg);
   }
     
   /*Card Container*/
@@ -15,7 +15,7 @@ body {
     width: 35em;
     height: 22em;
     margin: 5em auto;
-    background-color: red;
+    background-color: #330066;
     border: 0.2em solid black;
     border-radius: 1.5em;
   }
@@ -35,6 +35,7 @@ body {
 
 .card header h2{
         font-size: 2em;
+        color: #3f0;
         line-height: 1.5;
 }
     
@@ -47,6 +48,8 @@ body {
 
 .card footer p{
     font-size: 1.5em;
+    text-align: center;
+    color:#3f0;
     line-height: 2;
 }
 
