@@ -1,0 +1,53 @@
+
+
+.background-img{
+    background-image: url('../img/moo.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.box {
+    position: relative;
+    height: 13em;
+    width: 25em;
+    background-color: #332e2d;
+    border: 5px solid white;
+    border-radius: 10%;
+    top: 5%;
+    left: 5%;
+}
+
+.box2 {
+    position: relative;
+    height: 8em;
+    width: 10em;
+    background-color:#f8c5ba;
+    border: 5px solid white;
+    border-radius: 10%;
+    top: 45%;
+    left: 5%;
+}
+
+h1 {
+    color: #f8c5ba;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+p {
+    color: white;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-bottom: 2px solid #f8c5ba;
+}
+
+h2 {
+    color: #332e2d;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
