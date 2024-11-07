@@ -1,0 +1,35 @@
+Arrays in Javascript (class slides)
+
+SELECTORS 
+   - you can select based on ID, element, or class
+    document.querySelectorAll("p") in JS returns array, without "All" returns a value 
+   - query selector
+      console.log(document.querySelector('button'));  returns single button 
+      console.log(document.querySelectorAll('button'));   returns every button element on the page
+
+Link script at the bottom of the body!
+   <script src="js file name and source"></script>
+
+Selecting by Class 
+   console.log(document.getElementsByClassName('my_button')) for single button or include [2] array at the end to get elements 0-2
+
+Selecting by Selector 
+   console.log(document.querySelectorAll("#my_id .my_class'));
+
+
+FUNCTIONS
+   to declare a function give it a name: 
+   function myFunction(p1, p2){
+      return p1 * p2;
+   }
+
+Conditionals (if/else, t/f)
+   function myFunction(p1, p2){
+      if(p1 < p2){
+         console.log("p1 is less than p2")
+      }}
+
+   == equal value
+   === equal value equal type
+   != not euqal 
+   !== not equal, equal type 
