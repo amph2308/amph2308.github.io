@@ -1,56 +1,41 @@
 
-function tellFortune(varJob, varLocation, varPartner, varKids) {
-    var fortune = 'You will be a ' + varJob + ' in ' + varLocation + ' and married to ' +
-    varPartner + ' ' + ' with ' + varKids + ' kids.';
-    console.log(fortune);
-    }
+/* Declaring the alternative text for each image file */
 
-    tellFortune('farmer', 'Missouri', 'Chappell Roan', 'a wonderful lack of');
+const displayedImage = document.querySelector('.displayed-img');
+const thumbBar = document.querySelector('.thumb-bar');
 
-    tellFortune('marine biologist', 'a sweet coastal cottage', 'Kit Connor', 'a small labor force');
-    
-    tellFortune('political renegade', 'a cabin in the woods', 'Alex Cosani', '2 diva');
+const btn = document.querySelector('button');
+const overlay = document.querySelector('.overlay');
 
+/* Declaring the array of image filenames */
 
-
-function findDogAge(age) {
-    
-        var dogYears = 7*age;
-        let yourDog = console.log("Your doggie is " + dogYears + " years old in dog years!");
-        }
-        
-        findDogAge(13);
-        findDogAge(3);
-        findDogAge(0.5);
-
-        if(customName.value !== '') {
-            const name = customName.value;
-            yourDog = yourDog.replaceAll('Your doggie', name);
-          }
-        
-        console.log()
+const imgNames = ['../img/ghosttown-color-29.jpg', '../img/ghosttown-color-36.jpg', '../img/ghosttown-color-39.jpg', '../img/ghosttown-color-41.jpg', '../img/ghosttown-color-58.jpg'];
+const imgAlts = ['Smokin Cowboy','Queer Cowgirls','Kissin Cowgirls','Westerners in the Field','Looking Back'];
 
 
-function reverseReverse(n) {
-  n = n + "";
-  return n.split("").reverse().join("");
+/* Looping through images */
+
+for (let i =0; i<imgNames.length; i++) {
+  const newImage = document.createElement('img');
+    newImage.setAttribute('src', imgNames[i]);
+    newImage.setAttribute('alt', imgAlts[i]);
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener('click', () => {
+    displayedImage.setAttribute('src', imgNames[i]).setAttribute('alt', imgAlts[i]);
+    displayedImage.alt = e.target.alt;
+  });
 }
- console.log(Number(reverseReverse(32243)));
 
+/* Wiring up the Darken/Lighten button */
 
-
-function alphabetize(str) {
-  return str.split('').sort().join('');
-}
-console.log(alphabetize("webmaster"));
-
-
-function uppercaseFirst(str) {
-  var array = str.split(' ');
-  var newarray = [];
-  for (var x = 0; x < array.length; x++) {
-    newarray.push(array[x].charAt(0).toUpperCase() + array[x].slice(1));
+let toggle = false;
+btn.addEventListener('click', () => {
+  if(!toggle){
+    overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
+    toggle = true
   }
-  return newarray.join(' ');
-}
-console.log(uppercaseFirst("the quick brown fox")); 
+  else{
+    overlay.style.backgroundColor = "rgba(0,0,0,0.0)";
+    toggle = false;
+  }
+});
