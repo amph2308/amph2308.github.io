@@ -1,0 +1,10 @@
+body {
+    background-image: url("../img/kitty2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cat-fact {
+    font-size: 2em;
+    text-align: center;
+    margin: 1em;
+}
