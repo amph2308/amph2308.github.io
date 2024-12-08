@@ -1,0 +1,106 @@
+
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 15vw;
+}
+
+#projects a{
+    text-decoration: none;
+    color: black;
+}
+
+.project:hover{
+    background-color:#938d79;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    border: 3px dashed whitesmoke;
+    margin-top: 10px;
+    padding: 20px 20px;
+
+}
+
+.project img{
+    width:20vw;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+}
+
+#buttons button{
+    margin: 10px;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+  }
+  
+html {
+    background-color: #bcb5a2;
+  }
+
+h1 {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 72px;
+    text-align: left;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    color: white;
+}
+
+h2{
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    padding-right: 3vw;
+    padding-bottom: 2vh;
+
+}
+
+h3{
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    color: white;
+    padding-left: 2vw;
+    font-size: 32px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+
+.row{
+    display: flex;
+    padding-left: 55px;
+    padding-right: 40px;
+}
+
+.profimg{
+    height: auto;
+    padding-left: 40px;
+}
+
+.about{
+    padding-left: 80px;
+    width: 60vw;
+    text-align:justify;
+    padding: 15px 20px;
+}
+
+p{
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    color: rgb(36, 31, 26);
+    font-size: 20px;
+    line-height: 175%;
+    display: block;
+    padding-right: 1vw;
+    padding-left: 2vw;
+}

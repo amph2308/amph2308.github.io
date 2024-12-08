@@ -1,0 +1,68 @@
+{
+	"projects": [{
+		"name": "Gathering",
+			"subdomain": "gathering",
+			"category": "photography",
+			"subtitle": "They always come home in the wee hours with muddy feet.",
+			"abstract": "Part One in a series titled Americana Gods.",
+			"description": "This shoot pulls imagery from Salem, Christianity, and Wiccan iconography to weave a playful yet dramatic narrative of a witching hour gathering in the woods.",
+			"mainimg": "gathering (8).png",
+			"video": ["False"],
+			"images": ["gathering (1).png", "gathering (2).png", "gathering (3).png", "gathering (4).png", "gathering (5).png", "gathering (6).png", "gathering (7).png", "gathering (8).png"],
+			"published": ["True","1"]
+
+	},{
+			"name": "Church Row",
+			"subdomain": "church_row",
+			"category": ["photography"],
+			"subtitle": "Who will be worshipped and who will be loved?",
+			"abstract": "Part Two in a series titled Americana Gods.",
+			"description": "This shoot is observational in focus, departing from the other two portrait-based shoots in the series. It examines the area surrounding the cluster of churches that so many small towns are accustomed to, and asks questions about the relics and icons that surround them.",
+			"mainimg": "churchrow (4).png",
+			"video": ["False"],
+			"images": ["churchrow (1).png", "churchrow (2).png", "churchrow (3).png", "churchrow (4).png", "churchrow (5).png", "churchrow (6).png", "churchrow (7).png", "churchrow (8).png"],
+			"published": ["True","1"]
+
+
+	},{
+			"name": "Ghost Town",
+			"subdomain": "ghost_town", 
+			"category": "photography",
+			"subtitle": "What goes on when the men head out on the range?",
+			"abstract": "Part Three in a series titled Americana Gods.",
+			"description": "This shoot explores the intersection of western aesthetics and queerness at the site of an old homestead in Eastern Colorado.",
+			"mainimg": "ghosttown (1).png",
+			"video": ["False"],
+			"images": ["ghosttown (1).png", "ghosttown (2).png", "ghosttown (3).png", "ghosttown (4).png", "ghosttown (5).png", "ghosttown (6).png", "ghosttown (7).png", "ghosttown (8).png", "ghosttown (9).png"],
+			"published": ["True","1"]
+
+
+	},{
+			"name": "Body, Mind, and Pole",
+			"subdomain": "body_mind_and_pole",
+			"category": "video",
+			"subtitle": "Leave your preconceptions at the studio door.",
+			"abstract": "A local pole dancing studios builds community and confidence in their dancers.",
+			"description":"Catwoman Pole Academy in Boulder, CO has only been open a year but already their community of teachers, students and newcomers thrive on empowering each other to push their bodies' capabilities to new heights, finding new self confidence and respect for themselves and their fellow dancers in the process.",
+			"mainimg": "bodymindandpole.jpg",
+			"video": ["True", "True"],
+			"video_id":"../JS final/mp4/FinalV2.BMaP.mp4"
+		},
+		
+
+		{
+			"name": "Chaps",
+			"subdomain": "chaps_film",
+			"category": "video",
+			"subtitle": "The World Gay Rodeo Finals in El Reno, OK",
+			"collaborators": "Jacob Hershey",
+			"abstract": "It's a rodeo— and so much more.",
+			"description": "In the heart of Oklahoma, a rodeo kicks off that's open to anyone and everyone looking to embrace and honor the Western way of life. Cowboys will ride broncos, drag queens will give stunning performances, and somewhere along the way you'll end up feeling the same familial love that keeps everyone coming back.",
+			"mainimg": "chaps.jpg",
+			"video": ["True", "True"],
+			"video_id":"../JS final/mp4/Main Editing Seq.mp4"
+		}]}
+		
+
+
+			
