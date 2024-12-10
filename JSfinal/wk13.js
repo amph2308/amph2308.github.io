@@ -1,5 +1,5 @@
 let proj;
-fetch('../JS final/projects.json')
+fetch('../JSfinal/projects.json')
     .then(response =>{
         return response.json();
     }).then(projects => {
@@ -12,9 +12,9 @@ fetch('../JS final/projects.json')
 
 function parseData(data){
     for(let i=0; i<data.projects.length; i++){
-    document.getElementById("projects").innerHTML += `<a href="../JS final/${data.projects[i].subdomain}.html"}>
+    document.getElementById("projects").innerHTML += `<a href="../JSfinal/${data.projects[i].subdomain}.html"}>
     <div class="row project" id="${data.projects[i].subdomain}">
-        <div class="mainimg"><img src="../JS final/assets/${data.projects[i].mainimg}"</div> 
+        <div class="mainimg"><img src="../JSfinal/assets/${data.projects[i].mainimg}"</div> 
          <div class="description"><h3>${data.projects[i].name}</h3>
          <p class="subtitle">${data.projects[i].subtitle}</p>
         <p>${data.projects[i].abstract}</p></div>
