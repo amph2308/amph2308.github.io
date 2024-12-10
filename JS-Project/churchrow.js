@@ -1,7 +1,7 @@
 let subdomain = window.location.href.slice(window.location.href.lastIndexOf("/")+1, window.location.href.lastIndexOf("."));
 console.log(subdomain);
 
-fetch('../JSfinal/projects.json')
+fetch('../JS-Project/projects.json')
     .then(response =>{
         return response.json();
     }).then(projects => {
@@ -32,7 +32,7 @@ function buildPage(project){
 // description of given project
 function parseData(data){
     for(let i=0; i<data.projects.length; i++){
-    document.getElementById("projects").innerHTML += `<a href="../JSfinal/${data.projects[i].subdomain}.html"}>
+    document.getElementById("projects").innerHTML += `<a href="../JS-Project/${data.projects[i].subdomain}.html"}>
     <div class="row project" id="${data.projects[i].subdomain}">
         <p>${data.projects[i].description}</p></div>
         </div></a>`;
@@ -48,7 +48,7 @@ const thumbBar = document.querySelector('.thumb-bar');
 
 /* Declaring the array of image filenames */
 
-const imgNames = ['../JSfinal/assets/churchrow (1).png', '../JSfinal/assets/churchrow (2).png', '../JSfinal/assets/churchrow (3).png', '../JSfinal/assets/churchrow (4).png', '../JSfinal/assets/churchrow (5).png', '../JSfinal/assets/churchrow (6).png', '../JSfinal/assets/churchrow (7).png', '../JSfinal/assets/churchrow (8).png'];
+const imgNames = ['../JS-Project/assets/churchrow (1).png', '../JS-Project/assets/churchrow (2).png', '../JS-Project/assets/churchrow (3).png', '../JS-Project/assets/churchrow (4).png', '../JS-Project/assets/churchrow (5).png', '../JS-Project/assets/churchrow (6).png', '../JS-Project/assets/churchrow (7).png', '../JS-Project/assets/churchrow (8).png'];
 const imgAlts = ['Church Door', 'Mother Gravestone', 'Old House', 'Motorcycle Closeup', 'Jesus Graffiti', 'Powerlines and Church Roof', 'Is Love on Brick', 'Old Red Truck'];
 
 

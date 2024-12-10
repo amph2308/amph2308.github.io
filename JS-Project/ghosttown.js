@@ -1,7 +1,7 @@
 let subdomain = window.location.href.slice(window.location.href.lastIndexOf("/")+1, window.location.href.lastIndexOf("."));
 console.log(subdomain);
 
-fetch('../JSfinal/projects.json')
+fetch('../JS-Project/projects.json')
     .then(response =>{
         return response.json();
     }).then(projects => {
@@ -32,7 +32,7 @@ function buildPage(project){
 // description of given project
 function parseData(data){
     for(let i=0; i<data.projects.length; i++){
-    document.getElementById("projects").innerHTML += `<a href="../JSfinal/${data.projects[i].subdomain}.html"}>
+    document.getElementById("projects").innerHTML += `<a href="../JS-Project/${data.projects[i].subdomain}.html"}>
     <div class="row project" id="${data.projects[i].subdomain}">
         <p>${data.projects[i].description}</p></div>
         </div></a>`;
@@ -48,7 +48,7 @@ const thumbBar = document.querySelector('.thumb-bar');
 
 /* Declaring the array of image filenames */
 
-const imgNames = ['../JSfinal/assets/ghosttown (1).png', '../JSfinal/assets/ghosttown (2).png', '../JSfinal/assets/ghosttown (3).png', '../JSfinal/assets/ghosttown (4).png', '../JSfinal/assets/ghosttown (5).png', '../JSfinal/assets/ghosttown (6).png', '../JSfinal/assets/ghosttown (7).png', '../JSfinal/assets/ghosttown (8).png', '../JSfinal/assets/ghosttown (9).png'];
+const imgNames = ['../JS-Project/assets/ghosttown (1).png', '../JS-Project/assets/ghosttown (2).png', '../JS-Project/assets/ghosttown (3).png', '../JS-Project/assets/ghosttown (4).png', '../JS-Project/assets/ghosttown (5).png', '../JS-Project/assets/ghosttown (6).png', '../JS-Project/assets/ghosttown (7).png', '../JS-Project/assets/ghosttown (8).png', '../JS-Project/assets/ghosttown (9).png'];
 const imgAlts = ['Cowboy Smoking', 'Cowboys Flirting', 'Cowpokes in the Field', 'Country Women Staring Off', 'Cowboy with Hat', 'Looking in the Mirror', 'Behind the Barn', 'Laying in the Field', 'Smoking Kiss'];
 
 
