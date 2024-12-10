@@ -38,3 +38,30 @@ function parseData(data){
         </div></a>`;
     }
 }
+
+
+/* Declaring the alternative text for each image file */
+
+const displayedImage = document.querySelector('.displayed-img');
+const thumbBar = document.querySelector('.thumb-bar');
+
+
+/* Declaring the array of image filenames */
+
+const imgNames = ['../JS final/assets/churchrow (1).png', '../JS final/assets/churchrow (2).png', '../JS final/assets/churchrow (3).png', '../JS final/assets/churchrow (4).png', '../JS final/assets/churchrow (5).png', '../JS final/assets/churchrow (6).png', '../JS final/assets/churchrow (7).png', '../JS final/assets/churchrow (8).png'];
+const imgAlts = ['Church Door', 'Mother Gravestone', 'Old House', 'Motorcycle Closeup', 'Jesus Graffiti', 'Powerlines and Church Roof', 'Is Love on Brick', 'Old Red Truck'];
+
+
+/* Looping through images */
+
+for (let i =0; i<imgNames.length; i++) {
+  const newImage = document.createElement('img');
+    newImage.setAttribute('src', imgNames[i]);
+    newImage.setAttribute('alt', imgAlts[i]);
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener('click', () => {
+    displayedImage.setAttribute('src', imgNames[i]).setAttribute('alt', imgAlts[i]);
+    displayedImage.alt = e.target.alt;
+  });
+}
+
